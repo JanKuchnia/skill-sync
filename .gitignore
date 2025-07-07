@@ -1,0 +1,13 @@
+# Node modules (if you add npm)
+node_modules/
+# OS files
+.DS_Store
+Thumbs.db
+# Log files
+*.log
+# Build output
+dist/
+build/
+# IDE/editor folders
+.vscode/
+.idea/ 

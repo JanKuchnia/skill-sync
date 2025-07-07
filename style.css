@@ -1,0 +1,32 @@
+/* Gradient background */
+.gradient-bg {
+    background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+}
+.skill-chip {
+    transition: all 0.3s ease;
+}
+.skill-chip:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.profile-card {
+    transition: all 0.3s ease;
+}
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.tab-active {
+    border-bottom: 3px solid #4F46E5;
+    font-weight: 600;
+    color: #4F46E5;
+}
+.drawer {
+    transition: transform 0.3s ease-in-out;
+}
+.drawer-closed {
+    transform: translateX(100%);
+}
+.drawer-open {
+    transform: translateX(0);
+} 
